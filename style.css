@@ -30,15 +30,14 @@
     display: flex;
     justify-content: center;
 }
-.logo-photo img{
-    /* width: 250px; */
-    /* margin-left: 200; */
-    /* padding-left: 0px; */
-    
 
-}
 .logo-title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* margin-right: 500px; */
     
 }
+
+
+/* header section end  */
+
+
