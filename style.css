@@ -5,7 +5,7 @@
 .header-container{
     display: flex;
     justify-content: space-around;
-    padding: 10px ;
+    padding: 20px ;
     background-color: gray;
     /* margin-bottom: 20px; */
     
@@ -40,4 +40,67 @@
 
 /* header section end  */
 
+.banner-conatiner{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg') ,linear-gradient( rgba(0,0,0,0.2) ,rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+ }
+  
 
+.banner-info p{
+    color: #ffff;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-info h1{
+    color: #ffff;
+    font-size: 100px;
+    font-weight: bold;
+}
+span{
+    color: red;
+}
+.bg-primary{
+    border: 0;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: #ffff;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.btn{
+    border: 0;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color:red;
+    color: #ffff;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/* header section end  */
+.main-container{
+    display: flex;
+    padding-top: 200px;
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png') ,linear-gradient( rgba(0,0,0,0.9) ,rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffff;
+}
+
+.box-photo {
+    
+    width: 100px;
+}
