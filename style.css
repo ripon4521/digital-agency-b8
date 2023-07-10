@@ -89,8 +89,10 @@ span{
 
 /* header section end  */
 .main-container{
+    align-items: center;
+    justify-content: space-between;
     display: flex;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     height: 100vh;
     background-image: url('./asset/image/footer-bg.png') ,linear-gradient( rgba(0,0,0,0.9) ,rgba(0,0,0,0.9));
     background-blend-mode: overlay;
@@ -98,9 +100,221 @@ span{
     background-position: center;
     background-size: cover;
     color: #ffff;
+    padding: 30px;
+}
+.left-side-corner h1{
+    font-size: 60px;
+
+}
+.left-side-corner p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.left-side-corner ol 
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
 }
 
 .box-photo {
     
     width: 100px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    background-color: #ffff;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    
+}
+.box h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service-description{
+    width: 50%;
+}
+
+.first-two-box{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.author-img{
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+}
+.author-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red ;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.bg-secondry{
+    border: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #ffff;
+    color: rgb(228, 18, 18);
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+.service-btn{
+    border: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color:red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+
+/* AUTHOR SECTION END  */
+
+.appoint-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(202, 18, 18);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -90px;
+    align-items: center;
+    gap: 10px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+   
+}
+.phone-call h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: -0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.number{
+    color: #ffff;
+    font-size: 30px;
+}
+.appoint-desc{
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #ffff;
+    color: rgb(228, 25, 25,0.8);
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+/* appoinment section end  */
+
+
+.blog-cont{
+    margin-top: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blog-cont h1{
+    font-size: 60px;
+}
+.blog-cont p{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.bolg-imgs{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+
+    
+}
+.blog{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.blogs{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    gap: 50px;
+}
+.bolg-imgs h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.bolg-imgs p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.footer-cont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* background-color: black; */
+    color: #ffff;
+    padding: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+hr{
+    color:#ffff;
+}
+.list li{
+    list-style: none;
+    margin-top: 5px;
+}
+.list ul{
+    margin-top: 10px;
+}
+
+.footer{
+   color: #ffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+footer{
+    background-color: black;
+}
+hr{
+    margin-left: 200px;
+   margin-right: 200px
 }
